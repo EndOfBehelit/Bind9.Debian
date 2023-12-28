@@ -15,7 +15,7 @@ Podemos reiniciar o comprobar el servicio de bind9 en cualquier momento con los 
   sudo systemctl status bind9
 ```
 
-## Configuración del servicio en /etc/bind/named.conf.options
+## Configuración del servicio en `/etc/bind/named.conf.options`
 
 - **Creación de lista blanca de usuarios que puedan acceder al servicio**<br>
     Esto no es algo obligatorio pero es una buena práctica.
@@ -47,7 +47,7 @@ Podemos reiniciar o comprobar el servicio de bind9 en cualquier momento con los 
 ![imagen](https://github.com/EndOfBehelit/Bind9.Debian/assets/154753826/30c13323-d1d2-4bf2-9d2f-773c74ef4159)
 
 - **Comprobación de errores**<br>
-Podemos comprobar si hemos cometido algún error, estando en el directorio **/etc/bind**:
+Podemos comprobar si hemos cometido algún error, estando en el directorio **`/etc/bind`**:
 ```
   sudo named-checkconf
 ```
@@ -55,7 +55,7 @@ Podemos comprobar si hemos cometido algún error, estando en el directorio **/et
 ```
   sudo systemctl restart bind9
 ```
-- **Creación de zonas directa e inversa en /etc/bind/named.conf.local**
+- **Creación de zonas directa e inversa en `/etc/bind/named.conf.local`**
 ```
   zone "zonaDirecta" {
       type master;
