@@ -17,7 +17,7 @@ Podemos reiniciar o comprobar el servicio de bind9 en cualquier momento con los 
 
 ## Configuración del servicio en /etc/bind/named.conf.options
 
-- **Creación de lista blanca de usuarios que puedan acceder al servicio**
+- **Creación de lista blanca de usuarios que puedan acceder al servicio**<br>
     Esto no es algo obligatorio pero es una buena práctica.
 ```
   acl goodclients {
