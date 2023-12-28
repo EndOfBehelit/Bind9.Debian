@@ -113,7 +113,7 @@ A continuación, añadimos los host inveros:
 ```
   sudo named-checkzone 1.168.192.in-addr.arpa db.1.168.192.inversa
 ```
-## Uso de bind 9 a la vez que isc-dhcp-server
+## Uso de bind9 a la vez que isc-dhcp-server
 - **Cambios en el `/etc/dhcp/dhcpd.conf`**<br>
 Ahora nuestra máquina hace tanto de DNS como de DHCP, por lo que debemos quitar los otros DNS:
 ![imagen](https://github.com/EndOfBehelit/Bind9.Debian/assets/154753826/9f1aae7c-6add-43e6-9ec4-953e33442688)
