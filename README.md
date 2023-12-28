@@ -81,7 +81,7 @@ Ahora modificaremos la plantilla directa:
 ```
   sudo nano -c db.directa
 ```
-Aquí debemos modificar la línea 12 sustituyendo `**@ IN NS localhost**` con `**@ IN NS ns1.zonaDirecta.**`.
+Aquí debemos modificar la línea 12 sustituyendo `@ IN NS localhost` con `@ IN NS ns1.zonaDirecta.`.
 También ahora debemos añadir todos los host que queramos:
 ```
   ns1 IN A 192.168.1.1
