@@ -1,5 +1,5 @@
 # Bind9.Debian
-Configuración de Bind9 en Debian
+Configuración de Bind9 en Debian. (Las imágenes son ejemplos orientativos, puede haber pequeñas variaciones respecto al texto)
 
 ## Descarga de Bind9 
 ```
@@ -113,3 +113,11 @@ A continuación, añadimos los host inveros:
 ```
   sudo named-checkzone 1.168.192.in-addr.arpa db.1.168.192.inversa
 ```
+## Uso de bind 9 a la vez que isc-dhcp-server
+- **Cambios en el `/etc/dhcp/dhcpd.conf`**
+Ahora nuestra máquina hace tanto de DNS como de DHCP, por lo que debemos quitar los otros DNS:
+![imagen](https://github.com/EndOfBehelit/Bind9.Debian/assets/154753826/9f1aae7c-6add-43e6-9ec4-953e33442688)
+- **Cambios en `/etc/network/interfaces`**
+Debemos cambiar los DNS por el localhost:
+![imagen](https://github.com/EndOfBehelit/Bind9.Debian/assets/154753826/aaef3ec0-d3b1-49e5-81df-84ac6b2e3c2f)
+
