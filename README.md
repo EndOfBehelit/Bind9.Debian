@@ -2,6 +2,7 @@
 Configuración de Bind9 en Debian. (Las imágenes son ejemplos orientativos, puede haber pequeñas variaciones respecto al texto)
 
 ## Descarga de Bind9 
+---
 ```
   sudo apt install bind9 bind9-doc bind9utils
 ```
