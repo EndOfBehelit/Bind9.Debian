@@ -90,7 +90,7 @@ También ahora debemos añadir todos los host que queramos:
   dns IN A 192.168.1.1
   dhcp IN A 192.168.1.1
 ```
-![imagen](https://github.com/EndOfBehelit/Bind9.Debian/assets/154753826/b863b799-80fe-4637-8a3c-752f590bd75c)
+![imagen](https://github.com/EndOfBehelit/Bind9.Debian/assets/154753826/b863b799-80fe-4637-8a3c-752f590bd75c)<br>
 Ahora debemos hacer algo muy similar pero en el archivo inverso:
 ```
   sudo nano -c db.1.168.192.inversa
